@@ -1,4 +1,4 @@
-# Personal Website iteration using ReactJS + Redux
+# Personal Website using ReactJS + Redux
 
 Revisiting ReactJS to create my personal website.
 
