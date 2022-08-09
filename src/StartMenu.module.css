@@ -1,0 +1,62 @@
+#canvasBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 173, 255, 1);
+    z-index: -1000;
+  }
+  
+  #canvasLogo {
+    position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 100px;
+      height: 100px;
+      transform: translate(-50%, -50%);
+      overflow: hidden;
+      display: inline-block;
+      z-index: -995;
+  }
+  
+  #startBar {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background-color: #c0c5c9;
+    z-index: -950;
+  }
+  
+  #startButton {
+    position: absolute;
+    left: 10px;
+    bottom: 2px;
+    width: 100px;
+    height: 25px;
+    background-color: #c0c5c9;
+    border-top: 2px solid #a3a3a3;
+    border-right: 2px solid #a3a3a3;
+    border-bottom: 2px solid #a0a3a5;
+    border-left: 2px solid #a0a3a5;
+    z-index: -900;
+  }
+  
+  #startBarClock {
+    display: flex;
+    position: absolute;
+    right: 10px;
+    bottom: 2px;
+    width: 100px;
+    height: 20px;
+    background-color: #c0c5c9;
+    border-top: 2px solid #a3a3a3;
+    border-right: 2px solid #a3a3a3;
+    border-bottom: 2px solid #a0a3a5;
+    border-left: 2px solid #a0a3a5;
+    justify-content: center;
+    align-content: center;
+    z-index: -900;
+  }
